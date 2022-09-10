@@ -1,0 +1,21 @@
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe.config
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\bin\Debug\Курсач.pdb
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.Form1.resources
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.exe
+C:\Users\ASUS TUF DASH F15\OneDrive\Рабочий стол\Курсач\Курсач\Курсач\obj\Debug\Курсач.pdb
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe.config
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\bin\Debug\Курсач.exe
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\bin\Debug\Курсач.pdb
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.Form1.resources
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.Properties.Resources.resources
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.exe
+C:\Users\User\Desktop\Папка с файлами\Курсач\Курсач\Курсач\obj\Debug\Курсач.pdb

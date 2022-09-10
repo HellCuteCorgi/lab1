@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="КурсачDataSet8" targetNamespace="http://tempuri.org/КурсачDataSet8.xsd" xmlns:mstns="http://tempuri.org/КурсачDataSet8.xsd" xmlns="http://tempuri.org/КурсачDataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="КурсачConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="КурсачConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Курсач.Properties.Settings.GlobalReference.Default.КурсачConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Зарплаты1TableAdapter" GeneratorDataComponentClassName="Зарплаты1TableAdapter" Name="Зарплаты1" UserDataComponentName="Зарплаты1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="КурсачConnectionString (Settings)" DbObjectName="Курсач.dbo.Зарплаты1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ФИО, Оклад, Дата, Премия, Итог FROM dbo.Зарплаты1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ФИО" DataSetColumn="ФИО" />
+              <Mapping SourceColumn="Оклад" DataSetColumn="Оклад" />
+              <Mapping SourceColumn="Дата" DataSetColumn="Дата" />
+              <Mapping SourceColumn="Премия" DataSetColumn="Премия" />
+              <Mapping SourceColumn="Итог" DataSetColumn="Итог" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="КурсачDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="КурсачDataSet8" msprop:Generator_UserDSName="КурсачDataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Зарплаты1" msprop:Generator_TableClassName="Зарплаты1DataTable" msprop:Generator_TableVarName="tableЗарплаты1" msprop:Generator_TablePropName="Зарплаты1" msprop:Generator_RowDeletingName="Зарплаты1RowDeleting" msprop:Generator_RowChangingName="Зарплаты1RowChanging" msprop:Generator_RowEvHandlerName="Зарплаты1RowChangeEventHandler" msprop:Generator_RowDeletedName="Зарплаты1RowDeleted" msprop:Generator_UserTableName="Зарплаты1" msprop:Generator_RowChangedName="Зарплаты1RowChanged" msprop:Generator_RowEvArgName="Зарплаты1RowChangeEvent" msprop:Generator_RowClassName="Зарплаты1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ФИО" msprop:Generator_ColumnVarNameInTable="columnФИО" msprop:Generator_ColumnPropNameInRow="ФИО" msprop:Generator_ColumnPropNameInTable="ФИОColumn" msprop:Generator_UserColumnName="ФИО">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Оклад" msprop:Generator_ColumnVarNameInTable="columnОклад" msprop:Generator_ColumnPropNameInRow="Оклад" msprop:Generator_ColumnPropNameInTable="ОкладColumn" msprop:Generator_UserColumnName="Оклад" type="xs:decimal" />
+              <xs:element name="Дата" msprop:Generator_ColumnVarNameInTable="columnДата" msprop:Generator_ColumnPropNameInRow="Дата" msprop:Generator_ColumnPropNameInTable="ДатаColumn" msprop:Generator_UserColumnName="Дата" type="xs:dateTime" />
+              <xs:element name="Премия" msprop:Generator_ColumnVarNameInTable="columnПремия" msprop:Generator_ColumnPropNameInRow="Премия" msprop:Generator_ColumnPropNameInTable="ПремияColumn" msprop:Generator_UserColumnName="Премия" type="xs:decimal" />
+              <xs:element name="Итог" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnИтог" msprop:Generator_ColumnPropNameInRow="Итог" msprop:Generator_ColumnPropNameInTable="ИтогColumn" msprop:Generator_UserColumnName="Итог" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

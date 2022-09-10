@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="КурсачDataSet" targetNamespace="http://tempuri.org/КурсачDataSet.xsd" xmlns:mstns="http://tempuri.org/КурсачDataSet.xsd" xmlns="http://tempuri.org/КурсачDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="КурсачConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="КурсачConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Курсач.Properties.Settings.GlobalReference.Default.КурсачConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Сотрудники1TableAdapter" GeneratorDataComponentClassName="Сотрудники1TableAdapter" Name="Сотрудники1" UserDataComponentName="Сотрудники1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="КурсачConnectionString (Settings)" DbObjectName="Курсач.dbo.Сотрудники1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Никнейм, ФИО, Роль FROM dbo.Сотрудники1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Никнейм" DataSetColumn="Никнейм" />
+              <Mapping SourceColumn="ФИО" DataSetColumn="ФИО" />
+              <Mapping SourceColumn="Роль" DataSetColumn="Роль" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="КурсачDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="КурсачDataSet" msprop:Generator_UserDSName="КурсачDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Сотрудники1" msprop:Generator_TableClassName="Сотрудники1DataTable" msprop:Generator_TableVarName="tableСотрудники1" msprop:Generator_TablePropName="Сотрудники1" msprop:Generator_RowDeletingName="Сотрудники1RowDeleting" msprop:Generator_RowChangingName="Сотрудники1RowChanging" msprop:Generator_RowEvHandlerName="Сотрудники1RowChangeEventHandler" msprop:Generator_RowDeletedName="Сотрудники1RowDeleted" msprop:Generator_UserTableName="Сотрудники1" msprop:Generator_RowChangedName="Сотрудники1RowChanged" msprop:Generator_RowEvArgName="Сотрудники1RowChangeEvent" msprop:Generator_RowClassName="Сотрудники1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Никнейм" msprop:Generator_ColumnVarNameInTable="columnНикнейм" msprop:Generator_ColumnPropNameInRow="Никнейм" msprop:Generator_ColumnPropNameInTable="НикнеймColumn" msprop:Generator_UserColumnName="Никнейм">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ФИО" msprop:Generator_ColumnVarNameInTable="columnФИО" msprop:Generator_ColumnPropNameInRow="ФИО" msprop:Generator_ColumnPropNameInTable="ФИОColumn" msprop:Generator_UserColumnName="ФИО">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Роль" msprop:Generator_ColumnVarNameInTable="columnРоль" msprop:Generator_ColumnPropNameInRow="Роль" msprop:Generator_ColumnPropNameInTable="РольColumn" msprop:Generator_UserColumnName="Роль">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Сотрудники1" />
+      <xs:field xpath="mstns:Никнейм" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
